@@ -81,7 +81,7 @@ public class ReactionEngine
             }
             if (line != null)
             {
-                return line.replace("{pet}", petName == null ? "Pet" : petName);
+                return speakerLine(line, petName);
             }
         }
         if (context == ReactionContext.DANGER && catalog != null)
@@ -93,7 +93,7 @@ public class ReactionEngine
             }
             if (line != null)
             {
-                return line.replace("{pet}", petName == null ? "Pet" : petName);
+                return speakerLine(line, petName);
             }
         }
         if (context == ReactionContext.LOOT && catalog != null)
@@ -105,7 +105,7 @@ public class ReactionEngine
             }
             if (line != null)
             {
-                return line.replace("{pet}", petName == null ? "Pet" : petName);
+                return speakerLine(line, petName);
             }
         }
         if (context == ReactionContext.IDLE && catalog != null && index % 5 == 0)
@@ -117,7 +117,7 @@ public class ReactionEngine
             }
             if (line != null)
             {
-                return line.replace("{pet}", petName == null ? "Pet" : petName);
+                return speakerLine(line, petName);
             }
         }
         String normalized = petName == null ? "" : petName.toLowerCase(Locale.ROOT);
@@ -127,7 +127,7 @@ public class ReactionEngine
             java.util.List<String> catalogLines = catalog.linesFor(petName);
             if (!catalogLines.isEmpty())
             {
-                return catalogLines.get(Math.floorMod(index, catalogLines.size())).replace("{pet}", displayName);
+                return speakerLine(catalogLines.get(Math.floorMod(index, catalogLines.size())), displayName);
             }
         }
         for (Map.Entry<String, String[]> entry : namedReactions.entrySet())
@@ -144,16 +144,16 @@ public class ReactionEngine
             if (!sharedLines.isEmpty())
             {
                 String displayName = petName == null || petName.trim().isEmpty() ? "Pet" : petName.trim();
-                return sharedLines.get(Math.floorMod(index, sharedLines.size())).replace("{pet}", displayName);
+                return speakerLine(sharedLines.get(Math.floorMod(index, sharedLines.size())), displayName);
             }
         }
         String displayName = petName == null || petName.trim().isEmpty() ? "Pet" : petName.trim();
         String[] fallback = {
             displayName + " is on patrol.",
             displayName + " approves this adventure.",
-            displayName + " would like a snack.",
-            displayName + " has a thought about that.",
-            displayName + " is keeping an eye on things."
+            "I would like a snack.",
+            "I have a thought about that.",
+            "I am keeping an eye on things."
         };
         return fallback[Math.floorMod(index, fallback.length)];
     }
@@ -179,7 +179,7 @@ public class ReactionEngine
             String line = catalog.sharedLine("nearbyPet", index);
             if (line != null)
             {
-                return line.replace("{pet}", petName == null ? "Pet" : petName);
+                return speakerLine(line, petName);
             }
         }
         return interaction(PetPersonality.fromName(petName), PetPersonality.GENERIC, index);
@@ -201,5 +201,19 @@ public class ReactionEngine
             }
         }
         return nearbyInteraction(listenerName, index);
+    }
+
+    private String speakerLine(String line, String petName)
+    {
+        if (line == null)
+        {
+            return null;
+        }
+        String displayName = petName == null || petName.trim().isEmpty() ? "Pet" : petName.trim();
+        if (line.startsWith("{pet}"))
+        {
+            return line.replaceFirst("^\\{pet\\}", "I");
+        }
+        return line.replace("{pet}", displayName);
     }
 }
