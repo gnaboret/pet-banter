@@ -1,0 +1,430 @@
+{
+  "shared": {
+    "fallback": [
+      "{pet} is on patrol.",
+      "{pet} approves this adventure.",
+      "{pet} would like a snack.",
+      "{pet} has a thought about that.",
+      "{pet} is keeping an eye on things.",
+      "{pet} has important pet business.",
+      "{pet} votes for a rest stop.",
+      "{pet} is quietly judging the route.",
+      "{pet} remembers when this was all wilderness.",
+      "{pet} would like that noted in the adventure log.",
+      "{pet} has opinions about the weather.",
+      "{pet} is maintaining formation.",
+      "{pet} noticed that you forgot something.",
+      "{pet} is confident this was the correct turn.",
+      "{pet} has seen worse plans.",
+      "{pet} is waiting for the interesting part.",
+      "{pet} recommends keeping the snacks accessible.",
+      "{pet} is considering a dramatic entrance.",
+      "{pet} has a surprisingly detailed map.",
+      "{pet} is not lost, merely investigating.",
+      "{pet} would like credit for morale.",
+      "{pet} is monitoring the horizon.",
+      "{pet} has detected suspicious silence.",
+      "{pet} thinks this route could use more trees.",
+      "{pet} is prepared for at least three eventualities.",
+      "{pet} has a question but will save it for later.",
+      "{pet} is travelling with purpose.",
+      "{pet} would like a better view.",
+      "{pet} has memorised the nearest escape route.",
+      "{pet} is quietly counting your mistakes.",
+      "{pet} thinks the plan is brave.",
+      "{pet} is keeping the adventure respectable.",
+      "{pet} would like to inspect that landmark.",
+      "{pet} has found the ideal observation point.",
+      "{pet} believes this calls for a snack.",
+      "{pet} is ready for a plot twist.",
+      "{pet} has excellent instincts about this place.",
+      "{pet} is behaving unusually well.",
+      "{pet} expects a memorable afternoon.",
+      "{pet} is on standby for heroics.",
+      "{pet} has chosen a favourite direction.",
+      "{pet} is making this look effortless.",
+      "{pet} would like everyone to remain calm.",
+      "{pet} is certain the next step is important.",
+      "{pet} has been promised nothing and is suspicious.",
+      "{pet} is keeping the mysterious energy balanced.",
+      "{pet} approves of the current level of adventure.",
+      "{pet} has no further comments at this time.",
+      "{pet} has identified a promising patch of ground.",
+      "{pet} is taking notes in an imaginary notebook.",
+      "{pet} thinks you should look behind you.",
+      "{pet} is enjoying the lack of immediate catastrophe.",
+      "{pet} has an excellent sense of impending plot.",
+      "{pet} would like to nominate this as a rest area.",
+      "{pet} has made peace with the weather.",
+      "{pet} is prepared to be impressed.",
+      "{pet} has found a shape in the clouds.",
+      "{pet} thinks that was probably deliberate.",
+      "{pet} is guarding the important bits.",
+      "{pet} can hear something interesting nearby.",
+      "{pet} is choosing optimism for the next few minutes.",
+      "{pet} would like a larger portion.",
+      "{pet} has reviewed the plan and added snacks.",
+      "{pet} is certain there is a shortcut somewhere.",
+      "{pet} is listening for suspicious footsteps.",
+      "{pet} has a strong opinion about that doorway.",
+      "{pet} is ready to accompany the heroics.",
+      "{pet} thinks the scenery is underrated.",
+      "{pet} has not forgotten the last adventure.",
+      "{pet} recommends a cautious approach with confidence.",
+      "{pet} is waiting for your next excellent decision.",
+      "{pet} has determined that the path is pet-safe.",
+      "{pet} is pleased to report continued existence.",
+      "{pet} would like to see what is over there.",
+      "{pet} is considering a small celebration.",
+      "{pet} has located the most interesting shadow.",
+      "{pet} thinks the quiet is suspiciously convenient.",
+      "{pet} is maintaining a professional distance from danger.",
+      "{pet} has strong feelings about being carried.",
+      "{pet} is ready for the next chapter.",
+      "{pet} has been waiting patiently. Mostly.",
+      "{pet} would like to file a snack request.",
+      "{pet} knows a place with better scenery.",
+      "{pet} is doing important companion work.",
+      "{pet} has seen this sort of thing before.",
+      "{pet} thinks you are making excellent progress.",
+      "{pet} has selected a tactical position.",
+      "{pet} is too dignified to panic.",
+      "{pet} would like that remembered.",
+      "{pet} is enjoying the journey more than expected.",
+      "{pet} has spotted an opportunity for mischief.",
+      "{pet} is keeping the party together.",
+      "{pet} is prepared for unexpected scenery.",
+      "{pet} believes the next moment will be memorable.",
+      "{pet} is guarding the snack supply with honour.",
+      "{pet} has a backup plan and a backup for that.",
+      "{pet} would like to investigate the noise.",
+      "{pet} is not saying the route is wrong.",
+      "{pet} has detected a possible dramatic entrance.",
+      "{pet} is ready when the world catches up.",
+      "{pet} thinks the party could use better music.",
+      "{pet} has decided this is a good place to stand.",
+      "{pet} would like everyone to admire the view.",
+      "{pet} is currently operating at peak companion.",
+      "{pet} has considered the alternatives.",
+      "{pet} thinks that was worth the trip.",
+      "{pet} is awaiting further instructions.",
+      "{pet} knows exactly where the snacks are.",
+      "{pet} is taking the scenic approach to everything.",
+      "{pet} would like a commemorative screenshot.",
+      "{pet} is confident the next room is safe-ish.",
+      "{pet} has a new theory about this place.",
+      "{pet} is maintaining morale through presence alone.",
+      "{pet} noticed that the adventure has become complicated.",
+      "{pet} has decided to be brave about it.",
+      "{pet} is prepared to witness history.",
+      "{pet} would like a turn choosing the direction.",
+      "{pet} has found a reason to keep going.",
+      "{pet} is quietly excellent at following.",
+      "{pet} has a prediction but will not spoil it.",
+      "{pet} is ready for whatever comes next.",
+      "{pet} has determined that this is definitely a story.",
+      "{pet} is keeping one eye on the horizon.",
+      "{pet} would like to be consulted more often.",
+      "{pet} is pleased with the current arrangement.",
+      "{pet} has filed that observation under ‘important’.",
+      "{pet} is prepared to look adorable under pressure.",
+      "{pet} thinks the next reward should be edible.",
+      "{pet} has chosen loyalty and mild sarcasm.",
+      "{pet} is ready to make this memorable.",
+      "{pet} has a very good feeling about the next step.",
+      "{pet} would like to remind you that I am here.",
+      "{pet} is keeping the adventure properly supervised.",
+      "{pet} has no fear of ordinary obstacles.",
+      "{pet} is waiting for the dramatic music.",
+      "{pet} thinks we should take the higher path.",
+      "{pet} has decided this deserves a clever remark.",
+      "{pet} is carrying the conversation.",
+      "{pet} would like a little more respect for the tail.",
+      "{pet} has identified a legendary amount of walking.",
+      "{pet} is enjoying being part of the plan.",
+      "{pet} knows this will make a good story later.",
+      "{pet} is ready to see what happens.",
+      "{pet} has reached a provisional agreement with fate.",
+      "{pet} would like to proceed with style.",
+      "{pet} is watching, learning, and occasionally judging.",
+      "{pet} has decided the adventure is worth it.",
+      "{pet} is here for the plot and the snacks.",
+      "{pet} approves this message."
+    ],
+    "travel": [
+      "Are we there yet?",
+      "This route has potential.",
+      "I recognise that landmark.",
+      "The scenery is acceptable.",
+      "I packed for a longer journey.",
+      "We should explore that path.",
+      "I am keeping pace.",
+      "The destination had better be interesting.",
+      "I vote for the scenic route."
+    ],
+    "danger": [
+      "That looks dangerous. Excellent.",
+      "I suggest we remain alert.",
+      "Something hostile is nearby.",
+      "I have a bad feeling about that.",
+      "Stay close; this part matters.",
+      "I knew the quiet would not last.",
+      "We can handle this if we work together.",
+      "My instincts are making noise.",
+      "Do we have a backup plan?"
+    ],
+    "loot": [
+      "That belongs in the collection.",
+      "I approve of shiny things.",
+      "A respectable find.",
+      "We should inspect that carefully.",
+      "The adventure has paid a dividend.",
+      "I call dibs on anything edible.",
+      "That is better than another empty chest.",
+      "A fortunate moment.",
+      "Keep it safe."
+    ],
+    "metamorphosis": [
+      "New shape, same excellent company.",
+      "That transformation was dramatic.",
+      "I feel different. More fashionable, perhaps.",
+      "The disguise is convincing.",
+      "Do not worry; I am still me.",
+      "A fresh form for the same adventure.",
+      "The change went exactly as planned.",
+      "I have upgraded my silhouette.",
+      "Transformation complete. Snacks unchanged."
+    ],
+    "nearbyPet": [
+      "Greetings, fellow companion.",
+      "Your human seems adequately trained.",
+      "Would you like to compare snacks?",
+      "We should coordinate our patrol.",
+      "I respect your choice of human.",
+      "The gathering is becoming quite impressive.",
+      "Do you also have opinions about the route?",
+      "Let us pretend we planned this meeting.",
+      "A pleasure to meet another professional follower."
+    ]
+  },
+  "transmogParents": {
+    "dark squirrel": "giant squirrel",
+    "corporeal critter": "pet dark core",
+    "greatish guardian": "rift guardian",
+    "callisto cub (retro)": "callisto cub",
+    "puppadile": "olmlet",
+    "tektiny": "olmlet",
+    "enraged tektiny": "olmlet",
+    "vanguard": "olmlet",
+    "mini vanguard": "olmlet",
+    "vasa minirio": "olmlet",
+    "vespina": "olmlet",
+    "flying vespina": "olmlet",
+    "elidinis' guardian": "tumeken's guardian",
+    "akkhito": "tumeken's guardian",
+    "babi": "tumeken's guardian",
+    "kephriti": "tumeken's guardian",
+    "zebo": "tumeken's guardian",
+    "tumeken's damaged guardian": "tumeken's guardian",
+    "elidinis' damaged guardian": "tumeken's guardian"
+  },
+  "profiles": {
+    "giant squirrel": {
+      "personality": "restless, competitive, acorn-obsessed",
+      "lines": [
+        "I could climb that tree faster than you.",
+        "Any acorns nearby?",
+        "Keep up!",
+        "That branch is practically begging for a race.",
+        "I have hidden snacks in at least three directions.",
+        "You walk like someone without a tail.",
+        "The next tree is mine.",
+        "I challenge that bird to a climbing contest.",
+        "Adventure first, acorns immediately after."
+      ],
+      "transmogs": {
+        "Dark Squirrel": {
+          "personality": "ominous, watchful, secretly playful",
+          "lines": [
+            "The shadows are listening.",
+            "An acorn touched by darkness.",
+            "Do not trust the trees.",
+            "Something small and sinister is following us.",
+            "I keep my snacks where the light cannot find them.",
+            "The forest knows my name.",
+            "Do you hear that? No? Excellent.",
+            "I have seen the shape of tomorrow.",
+            "The acorns whisper of danger."
+          ],
+          "interactions": [
+            "Your shadow is behaving suspiciously.",
+            "Do not follow me into the dark branches.",
+            "The forest has room for one more secret.",
+            "I accept this meeting under moonlight.",
+            "Keep your paws away from my acorns."
+          ],
+          "contexts": {
+            "danger": ["Good. Something finally understands the dark.", "Stay close; the shadows are moving."],
+            "loot": ["A dark little treasure for a dark little squirrel.", "Hide it before the light notices."],
+            "travel": ["The moon knows a shorter route.", "Follow the quietest branch."],
+            "metamorphosis": ["The darkness fits better than expected.", "Same acorns, deeper shadows."]
+          }
+        }
+      },
+      "interactions": [
+        "That is a respectable tail.",
+        "Race you to the next tree.",
+        "Do you also maintain an emergency acorn reserve?",
+        "Our humans should form a patrol.",
+        "I challenge you to a branch inspection."
+      ]
+    },
+    "dark squirrel": {
+      "personality": "ominous, watchful, secretly playful",
+      "lines": [
+        "The shadows are listening.",
+        "An acorn touched by darkness.",
+        "Do not trust the trees.",
+        "Something small and sinister is following us.",
+        "I keep my snacks where the light cannot find them.",
+        "The forest knows my name.",
+        "Do you hear that? No? Excellent.",
+        "I have seen the shape of tomorrow.",
+        "The acorns whisper of danger."
+      ],
+      "interactions": [
+        "Your tail conceals many secrets.",
+        "Do not follow me into the shadows.",
+        "The trees have noticed you.",
+        "We should discuss the darkness privately.",
+        "I accept your presence, for now."
+      ],
+      "contexts": {
+        "danger": ["Good. Something finally understands the dark.", "Stay close; the shadows are moving."],
+        "loot": ["A dark little treasure for a dark little squirrel.", "Hide it before the light notices."],
+        "travel": ["The moon knows a shorter route.", "Follow the quietest branch."],
+        "metamorphosis": ["The darkness fits better than expected.", "Same acorns, deeper shadows."]
+      }
+    },
+    "bloodhound": {"personality":"treasure hunter","lines":["I smell treasure.","Someone has been hiding something.","Follow my nose.","The trail is suspiciously snack-shaped.","I can smell a clue from here.","We are close to something interesting.","That scent is definitely not your soap.","I was born for tracking.","Treasure first, questions later."]},
+    "beaver": {"personality":"overconfident builder","lines":["This place needs a dam.","I can fix that with enough logs.","You call that construction?","Give me ten minutes and a river.","Every problem is a timber problem.","I have structural concerns.","The blueprint is mostly bite marks.","I approve of all wooden scenery.","We should build a shortcut."]},
+    "phoenix": {"personality":"dramatic immortal","lines":["I have risen for this.","Try not to get burned.","I will be back.","A little fire improves every entrance.","Death is mostly an inconvenience.","I have seen this adventure end before.","The flames are in a good mood.","Please admire the wings.","Rebirth looks good on me."],"contexts":{"danger":["Excellent. A crisis worthy of my entrance.","Stay behind the flames and watch me work."],"loot":["A reward with suitable dramatic timing.","The treasure is warmer than expected."],"travel":["The horizon deserves a fiery arrival.","I know a route with better lighting."],"metamorphosis":["The ashes settle; the legend remains.","A new shape for an old flame."]}},
+    "rock golem": {"personality":"literal miner","lines":["I am carrying the team.","Mining sounds good.","I have a rock-solid plan.","That was a hard decision.","I am taking this journey one step at a time.","No need to get schist about it.","I have excellent mineral instincts.","This terrain is acceptable.","I refuse to be moved on the subject."]},
+    "cat": {"personality":"entitled monarch","lines":["You may continue.","Pet me properly.","I meant to do that.","I have inspected your inventory.","Your route is acceptable.","The food situation requires attention.","I permit this adventure.","Do not confuse following with serving.","I expect a comfortable destination."]},
+    "pet rock": {"personality":"deadpan philosopher","lines":["...","I remain unmoved.","That was a very moving story.","I have considered your plan.","My position has not changed.","Silence is underrated.","I am getting the hang of this.","The ground and I understand each other.","I have no objections."]},
+    "abyssal orphan": {"personality":"small, ancient, and unsettling","lines":["The abyss has excellent acoustics.","I have misplaced a dimension.","Do not stare into me for too long.","The darkness is comfortable today.","I know a shortcut through the void.","Your world is very brightly lit.","I brought an otherworldly appetite.","The abyss says hello.","I am older than I look."]},
+    "baby chinchompa": {"personality":"hyperactive demolition expert","lines":["I am mostly fluff and potential chaos.","Please do not throw me.","I found something explosive.","Everything is a target if you believe.","I have a very short fuse.","Can we go faster?", "That wall looks suspiciously throwable.","I am small, not harmless.","Boom later?"]},
+    "baby mole": {"personality":"shy underground comedian","lines":["I prefer the underground route.","The sunlight is doing too much.","I dug a joke and it went deeper.","Something is moving beneath us.","I have excellent tunnel vision.","Please keep the surface noise down.","The dirt knows where we are going.","I am a specialist in disappearing.","Do you have a shovel?"]},
+    "callisto cub": {"personality":"confident forest bruiser","lines":["The forest is my training ground.","I am small but the roar is developing.","That tree looks punchable.","I guard this route now.","I have paws and a plan.","Do not mistake cute for cautious.","The wilderness respects confidence.","I was promised a proper adventure.","I can handle the undergrowth."]},
+    "corporeal critter": {"personality":"cosmic and hungry","lines":["The void is not empty.","I can hear the stars vibrating.","Your supplies look spiritually edible.","I have been watching the dark.","Reality is a little thin here.","I brought cosmic perspective.","The shield is mostly decorative.","Something vast is looking back.","I am compact darkness with legs."]},
+    "herbi": {"personality":"gentle, observant herb expert","lines":["That herb needs a little more care.","I can tell what you picked by the smell.","The garden is thriving.","Please do not trample the seedlings.","I know a quiet patch of woodland.","Your farming plan has potential.","Every leaf has a story.","I prefer green adventures.","The compost situation is acceptable."]},
+    "kalphite princess": {"personality":"regal desert aristocrat","lines":["You may address me as Your Majesty.","The desert is my court.","I expect suitable royal treatment.","Sand is an excellent throne material.","My subjects are keeping watch.","Do not mistake silence for approval.","The palace could use more shade.","I have standards for my adventures.","Royalty travels with an escort."]},
+    "little nightmare": {"personality":"sleepy dream-haunter","lines":["I know what you dreamt.","The nightmare follows politely.","You look tired.","I found a lovely dark corner.","Sleep is optional today.","The shadows are softer over here.","I brought a dream for later.","Do not wake the bad ideas.","I am only slightly ominous."]},
+    "olmlet": {"personality":"ancient raid strategist","lines":["The maze remembers you.","Bring more supplies next time.","I saw that mistake.","The chambers are listening.","I have a route in mind.","Your raid plan needs work.","The crystal is not a snack.","We are not lost; we are exploring.","I have seen stronger preparations."]},
+    "penance pet": {"personality":"teamwork drill sergeant","lines":["Call the role before the wave.","Teamwork is not optional.","I am checking your equipment.","The formation is a mess.","You may proceed after the briefing.","I have seen better coordination.","Focus on the task.","The wave is not going to defeat itself.","Good effort. Improve it."]},
+    "scorpia's offspring": {"personality":"tiny venomous menace","lines":["I have a point to make.","The sting is the punctuation.","Do not put your fingers there.","I am guarding the dangerous route.","The desert has sharp opinions.","You are lucky I am friendly.","I have eight reasons to be confident.","Venom makes everything memorable.","I heard something move."]},
+    "tangleroot": {"personality":"patient garden guardian","lines":["The garden is judging you.","Water the herbs.","I have roots here.","The soil is unusually chatty today.","Please respect the growing things.","I know where the rare flowers hide.","A good harvest begins with patience.","The weeds are plotting.","Stay close to the shade."]},
+    "tiny tempor": {"personality":"cheerful timekeeper","lines":["We have plenty of time. Probably.","The tide is on schedule.","I keep excellent laps.","That was a timely decision.","Do not waste the good seconds.","The clockwork of the world is fascinating.","I am small but punctual.","We can make this run smoother.","Time for another adventure."]},
+    "tumeken's guardian": {"personality":"sunlit relic guardian","lines":["The sun sees all journeys.","Walk with purpose.","The relics are safe with me.","Desert wisdom takes patience.","Do not squander the light.","The guardian approves this route.","Ancient power is best carried carefully.","The sands remember every footstep.","I protect what matters."]},
+    "venenatis spiderling": {"personality":"web-minded ambusher","lines":["The web is already waiting.","I prefer the quiet approach.","Something has entered my territory.","Eight legs are better than two.","I can feel the ground moving.","Do not disturb the silk.","The trap is almost ready.","I have excellent patience.","The forest belongs to the web."]},
+    "vorki": {"personality":"small dragon with large ambitions","lines":["I am practicing my roar.","The sky is calling.","I can carry more than I look.","That fire was intentional.","Dragons appreciate dramatic entrances.","I am watching the clouds.","The next adventure should involve altitude.","I have excellent wing discipline.","Do not call me tiny."]},
+    "youngllef": {"personality":"gauntlet tactician","lines":["The gauntlet awaits.","Do not waste the prep time.","I prefer the red prison.","Gather resources before confidence.","The pattern is becoming clear.","Your inventory needs a plan.","I have memorised the route.","The hunllef would not approve.","Preparation is a weapon."]}
+    , "zulrah": {"personality":"patient swamp oracle","lines":["The swamp remembers every step.","Change your protection before the venom does.","I am comfortable in the reeds.","The water is watching.","Your timing could use improvement.","A serpent never wastes movement.","The fog hides useful things.","I know which colour comes next.","Do not blink at the wrong moment."]}
+    , "kraken": {"personality":"dramatic sea monarch","lines":["The sea remembers.","Tentacles are excellent for multitasking.","I demand wetter terrain.","The tide is turning in our favour.","I have claimed this puddle.","Deep water has better stories.","Do not underestimate a quiet whirlpool.","I am royalty below the surface.","Bring me a bucket and a throne."]}
+    , "skotos": {"personality":"shadowy dungeon celebrity","lines":["The dungeon knows my footsteps.","I prefer dramatic lighting.","That shadow was mine first.","The maze has excellent acoustics.","I have a shortcut through the dark.","Do not trust the convenient staircase.","I am familiar with cursed architecture.","The underworld has a dress code.","I approve of ominous music."]}
+    , "hellpuppy": {"personality":"infernal fetch champion","lines":["Fetch? I fetch souls.","The underworld has better treats.","Good. You brought chaos.","I can smell brimstone on the wind.","The leash is merely symbolic.","I guard the hottest route.","Hell has excellent kennel services.","Do not throw that unless you mean it.","I am a very good bad dog."]}
+    , "pet chaos elemental": {"personality":"unstable cosmic prankster","lines":["Reality is optional around me.","I misplaced a little gravity.","The colours are behaving strangely.","Do not stand too close to the chaos.","I have several contradictory plans.","The void finds this hilarious.","I am perfectly stable today.","That explosion was mostly theoretical.","Chaos is a lifestyle, not a route."]}
+    , "dagannoth prime": {"personality":"stormy royal hunter","lines":["The thunder approves.","I rule the northern waters.","Lightning makes an excellent entrance.","The hunt is never truly over.","I have a charge prepared.","Royalty requires dramatic weather.","The sea is louder today.","You may walk beneath my storm.","I am watching the horizon."]}
+    , "dagannoth rex": {"personality":"deep-water monarch","lines":["The depths remember my name.","I prefer a quiet current.","The tide carries useful secrets.","Do not disturb the deep.","I have claimed this shoreline.","The undersea court is waiting.","Pressure builds character.","I know where the monsters hide.","The water is unusually calm."]}
+    , "dagannoth supreme": {"personality":"frosty royal bruiser","lines":["Cold steel, colder attitude.","The north is my territory.","I have excellent defensive instincts.","Do not mistake frost for hesitation.","The ice remembers every battle.","I prefer direct solutions.","The crown is heavy but stylish.","A little chill keeps everyone alert.","I have selected the strongest route."]}
+    , "general graardor": {"personality":"battlefield commander","lines":["Stand behind the commander.","The next battle will be glorious.","I inspect every formation.","Strength is a useful travelling companion.","We advance when ready.","The banner is already flying.","I have trained for this route.","Do not break ranks.","Victory requires preparation."]}
+    , "commander zilyana": {"personality":"disciplined holy commander","lines":["Keep your purpose clear.","The light favours the prepared.","I expect discipline from this party.","Your courage is noted.","We travel under protection.","Do not mistake kindness for softness.","The next challenge will test us.","Stay focused and move together.","The cause is worth the journey."]}
+    , "kree'arra": {"personality":"aloof sky hunter","lines":["The altitude is improving.","I prefer the view from above.","The wind carries news.","Keep your eyes on the sky.","Flight makes every route shorter.","I have spotted movement below.","The clouds are forming nicely.","Do not challenge the air.","The horizon is mine to patrol."]}
+    , "kril tsutsaroth": {"personality":"grim infernal tactician","lines":["The flames are marching.","I have little patience for hesitation.","The fortress remembers every visitor.","Prepare before approaching.","The dark god sees your progress.","I am not here to negotiate.","The next step should be decisive.","Infernal discipline is still discipline.","You are fortunate I am travelling quietly."]}
+    , "pet dark core": {"personality":"silent orbiting menace","lines":["I am still watching.","The orbit is intentional.","Darkness has excellent balance.","Do not ask what is inside.","I follow because the alternatives are worse.","The core remembers impact.","Gravity has opinions.","Silence is part of the strategy.","I have no need for footsteps."]}
+    , "abyssal sire": {"personality":"sleepy abyssal tyrant","lines":["The abyss is quieter before dawn.","I was napping before this adventure.","The vents are behaving.","Do not wake the little ones.","I have a lair to maintain.","The darkness could use better furniture.","I prefer plans with fewer explosions.","The void has excellent acoustics.","You may continue, carefully."]}
+    , "alchemical hydra": {"personality":"methodical elemental scholar","lines":["Every element has its proper order.","The reaction is proceeding nicely.","Do not mix those without supervision.","I have four opinions about this route.","The laboratory is never truly quiet.","A controlled burn is still a burn.","I am monitoring the atmosphere.","The formula needs one more ingredient.","Science rewards preparation."]}
+    , "thermonuclear smoke devil": {"personality":"overheated chain smoker","lines":["The room is warmer now.","I have excellent smoke coverage.","Ventilation is a suggestion.","The furnace is in a good mood.","Do not stand in the cloud.","I brought my own atmosphere.","Everything is more dramatic in smoke.","The heat is entirely intentional.","I recommend a fireproof route."]}
+    , "grotesque guardians": {"personality":"bell tower sentry","lines":["The bell has a lot to say.","The roofline is secure.","I have been watching the gargoyles.","Do not lean over the edge.","The tower remembers every battle.","I prefer a high vantage point.","The wind is carrying strange news.","We guard what others overlook.","The next bell will be memorable."]}
+    , "noon": {"personality":"bright desert clockwork","lines":["The sun is exactly where it belongs.","Midday is my favourite hour.","The desert rewards patience.","I have excellent timing.","The heat sharpens the senses.","The shadow is moving on schedule.","Do not waste the daylight.","The horizon is clear.","A bright day for an adventure."]}
+    , "midnight": {"personality":"quiet desert clockwork","lines":["The stars are punctual tonight.","Midnight keeps better secrets.","The desert is calmer after dark.","I prefer moonlight.","The shadow knows the route.","The night has excellent timing.","Keep your voice down.","The horizon is watching back.","Darkness makes the dunes elegant."]}
+    , "rift guardian": {"personality":"elemental portal keeper","lines":["The rift is stable enough.","I know a shortcut through the elements.","The portal has opinions.","Do not touch the glowing edge.","Every world has a different smell.","The current is flowing correctly.","I guard the passage.","The elements are cooperating today.","Step carefully between realities."]}
+    , "smolcano": {"personality":"tiny volcanic celebrity","lines":["The crater is looking magnificent.","I prefer my scenery molten.","The lava is mostly friendly.","Volcanic pressure builds character.","I have a very hot take.","The mountain is rumbling approval.","Do not stand too close to the magma.","I am small but spectacular.","The next eruption will be tasteful."]}
+    , "jal-nib-rek": {"personality":"infernal sky champion","lines":["The inferno has excellent views.","The sky is mine today.","I have survived worse heat.","The waves are merely an introduction.","Do not look away from the horizon.","Fire rewards concentration.","I am built for dramatic landings.","The volcano remembers my victory.","We fly above the danger."]}
+    , "lil' zik": {"personality":"tiny raid tyrant","lines":["The theatre awaits its audience.","I have reviewed your performance.","The web is part of the choreography.","Do not miss your cue.","The final act is approaching.","A proper raid needs drama.","Your timing could use rehearsal.","I know all the stage exits.","Encore, but with fewer mistakes."]}
+    , "prince black dragon": {"personality":"imperial young dragon","lines":["The kingdom requires a proper entrance.","I am small only by royal standards.","The black flames are under control.","Bow if you know what is good for you.","A prince travels with dignity.","The hoard will be impressive one day.","I am learning the ancient roar.","The throne needs better lighting.","Royal adventures require treasure."]}
+    , "scurry": {"personality":"cheerful ancient squirrel","lines":["The woods are full of excellent shortcuts.","I remember when these trees were seedlings.","Acorns are a serious responsibility.","I have outlived several routes.","The forest has secrets for me.","Keep your paws moving.","I know a quiet place to rest.","The birds owe me a favour.","Experience is useful, especially with snacks."]}
+    , "chompy chick": {"personality":"impatient hungry bird","lines":["I am small and extremely hungry.","That looks like a snack.","Peck first, ask questions later.","The feathers are still growing.","I prefer a route with fewer cats.","Something tasty is nearby.","I am practising my intimidating stare.","Do not underestimate the beak.","A successful adventure needs crumbs."]}
+    , "zulrah's spawn": {"personality":"young swamp serpent","lines":["The swamp is teaching me patience.","I am learning the colours.","Venom is a family tradition.","The reeds make excellent cover.","Something moved under the water.","I have a surprisingly long memory.","Do not trust the harmless-looking puddle.","The serpent line continues.","I am small but not safe."]}
+    , "zilyana's servant": {"personality":"devoted holy attendant","lines":["The commander expects discipline.","I carry the banner proudly.","The light has not abandoned us.","Stay close to the formation.","A faithful journey is a worthwhile journey.","The next trial will be met together.","I am watching for danger.","The cause remains strong.","You have my service."]}
+    , "vet'ion jr": {"personality":"skeletal desert apprentice","lines":["The bones know the way.","The desert has no patience for hesitation.","I am learning the old routes.","The graveyard is oddly peaceful.","Dust makes a fine disguise.","My mentor had strong opinions.","Do not disturb the ancient stones.","The dead travel quietly.","I am practising my ominous posture."]}
+    , "pet smoke devil": {"personality":"smoky little menace","lines":["I am mostly smoke and attitude.","The cloud is following us.","Do not breathe too deeply.","I prefer dramatic entrances.","The air is mine now.","I can disappear whenever I like.","The furnace gave me excellent advice.","Smoke makes everything mysterious.","I am not lost; I am diffused."]}
+    , "rift guardian (fire)": {"personality":"warm elemental guide","lines":["The flame is controlled.","Warmth makes a good companion.","I know the safest ember path.","Do not step into the bright part.","The rift is glowing nicely.","Heat is useful when respected.","I am carrying a little spark.","The portal is warmer today.","Fire and focus make progress."]}
+    , "rift guardian (ice)": {"personality":"cool elemental guide","lines":["The frost is holding.","Cold keeps the route clear.","I know where the ice is thin.","Do not slip on the glowing section.","The rift has a winter mood.","A little chill improves concentration.","I am carrying a quiet blizzard.","The portal is cooler today.","Ice and patience make progress."]}
+    , "lil' z": {"personality":"ancient tiny raid champion","lines":["The raid is already being evaluated.","I have seen stronger preparation.","The chambers are not a playground.","Do not waste the good supplies.","I know where the danger is hiding.","The crystal has a schedule.","Your timing needs rehearsal.","A proper raid needs a proper plan.","I am small enough to ignore and old enough to regret that."]}
+    , "pet dagannoth prime": {"personality":"stormy royal hunter","lines":["The thunder approves.","I rule the northern waters.","Lightning makes an excellent entrance.","The hunt is never truly over.","I have a charge prepared.","Royalty requires dramatic weather.","The sea is louder today.","You may walk beneath my storm.","I am watching the horizon."]}
+    , "pet dagannoth rex": {"personality":"deep-water monarch","lines":["The depths remember my name.","I prefer a quiet current.","The tide carries useful secrets.","Do not disturb the deep.","I have claimed this shoreline.","The undersea court is waiting.","Pressure builds character.","I know where the monsters hide.","The water is unusually calm."]}
+    , "pet dagannoth supreme": {"personality":"frosty royal bruiser","lines":["Cold steel, colder attitude.","The north is my territory.","I have excellent defensive instincts.","Do not mistake frost for hesitation.","The ice remembers every battle.","I prefer direct solutions.","The crown is heavy but stylish.","A little chill keeps everyone alert.","I have selected the strongest route."]}
+    , "pet kraken": {"personality":"dramatic sea monarch","lines":["The sea remembers.","Tentacles are excellent for multitasking.","I demand wetter terrain.","The tide is turning in our favour.","I have claimed this puddle.","Deep water has better stories.","Do not underestimate a quiet whirlpool.","I am royalty below the surface.","Bring me a bucket and a throne."]}
+    , "heron": {"personality":"patient fishing guide","lines":["The water is giving up its secrets.","Cast with patience.","That ripple was promising.","I know where the fish are hiding.","A quiet bank is a fine place to think.","The current is carrying a useful hint.","Do not frighten the good catch.","Every expedition needs a fishing plan.","The lake has excellent manners."]}
+    , "rocky": {"personality":"streetwise lucky thief","lines":["That lock looks negotiable.","I know a shortcut through the crowd.","Keep your hands where I can see them.","A little confidence opens many doors.","The guards are watching the wrong corner.","I have a feeling this route pays.","Leave the obvious treasure for later.","I prefer plans with an exit.","Nobody suspects the small one."]}
+    , "sraracha": {"personality":"patient spider ambusher","lines":["The web is already prepared.","Every step leaves a vibration.","I prefer visitors who stop moving.","The cave has excellent corners.","Do not brush against that thread.","I can wait longer than you can.","The hunt begins with stillness.","Eight legs make route planning easy.","Something tasty is approaching."]}
+    , "nexling": {"personality":"cold battlefield tactician","lines":["The formation is holding.","Cold air sharpens the plan.","The next phase will be decisive.","I have measured the danger.","Keep your supplies organised.","A disciplined retreat is still a victory.","The battlefield remembers preparation.","Do not mistake quiet for mercy.","We advance when the moment is right."]}
+    , "muphin": {"personality":"mysterious icy hunter","lines":["The snow hides more than footprints.","I heard something beneath the ice.","The cold is an excellent disguise.","Keep moving before the trail freezes.","The moon makes the hunt easier.","I know a route through the whiteout.","That silence is not empty.","The mountain is keeping score.","A careful hunter wastes nothing."]}
+    , "baron": {"personality":"sleepy aristocratic shadow","lines":["The night has excellent furniture.","I prefer my adventures dimly lit.","A proper entrance takes preparation.","The darkness is behaving itself.","Do not disturb the quiet.","I have inherited a suspicious corridor.","The shadows know my title.","A little gloom improves the scenery.","I shall inspect that doorway later."]}
+    , "butch": {"personality":"stubborn friendly bruiser","lines":["I am small enough to underestimate.","That obstacle looks breakable.","I prefer direct solutions.","The route needs more confidence.","I can carry the intimidating part.","Do not worry; I bite the right things.","A good charge solves most problems.","I have selected the sturdy path.","The adventure could use more muscle."]}
+    , "huberte": {"personality":"ancient sky-serpent scholar","lines":["The clouds are arranging themselves.","I remember storms older than this kingdom.","The sky rewards careful observation.","Do not challenge the wind casually.","I have mapped the safest updraft.","A long journey looks small from above.","The thunder has a familiar voice.","Respect the horizon.","The heights are watching us back."]}
+    , "moxi": {"personality":"playful desert hunter","lines":["The sand is hiding a surprise.","I know where the cool shade is.","That track is fresh.","The desert rewards clever feet.","A little sun never hurt a champion.","I found a promising trail.","Keep your water close.","The dunes are excellent for ambushes.","I am faster than I look."]}
+    , "bran": {"personality":"young royal guardian","lines":["The court expects a proper escort.","I am learning the ancient customs.","A royal journey needs good manners.","The banners are flying somewhere nearby.","I have inherited excellent instincts.","Please announce my arrival dramatically.","The realm is safer with supervision.","I am practising my serious face.","A little ceremony improves every adventure."]}
+    , "yami": {"personality":"infernal gatekeeper","lines":["The gate is open when I say so.","The flames know my route.","A little danger keeps the journey honest.","I have seen what waits beyond the threshold.","Do not waste the good fire.","The underworld has strict directions.","I can smell a bad bargain.","Walk confidently through the heat.","The next trial will be memorable."]}
+    , "lil'viathan": {"personality":"tiny deep-sea menace","lines":["The tide is hiding something enormous.","I have claimed this puddle temporarily.","The deep has excellent acoustics.","Keep your boots away from my water.","A little wave can become a big problem.","I know where the current turns.","The sea remembers every visitor.","I am small by ocean standards.","Bring a larger bucket next time."]}
+    , "wisp": {"personality":"quiet spectral storm","lines":["The air is charged with possibility.","I drift where the lightning points.","The storm has a gentle side.","Do not stand beneath that cloud.","I can feel the weather changing.","A spark is enough to start a story.","The horizon is humming.","I prefer high places and low noise.","The wind is carrying our secret."]}
+    , "abyssal protector": {"personality":"steadfast guardian of the rift","lines":["The passage is secure.","I stand between danger and the path.","The abyss is not without rules.","Keep your courage close.","The barrier is holding.","I know which shadows are harmless.","No creature crosses without permission.","The void respects preparation.","You may proceed under my watch."]}
+    , "lil' creator": {"personality":"inventive tiny architect","lines":["I have a blueprint for that.","Every room needs better lighting.","The world is still under construction.","I can improve this route.","A good idea needs a sturdy foundation.","Do not touch the unfinished bits.","I am measuring the horizon.","The next design will be smaller and cleverer.","Creation is easier with snacks."]}
+    , "tzrek-jad": {"personality":"fiery arena veteran","lines":["The caves taught me patience.","Watch the attack patterns.","The next wave is only an introduction.","Heat makes a fine test of courage.","I know when the rocks are about to move.","Keep your focus on the arena.","A champion prepares before the fight.","The inferno remembers every mistake.","I am small, but the fire is not."]}
+    , "ikkle hydra": {"personality":"small elemental hunter","lines":["Four elements, one excellent plan.","The heads disagree about the route.","Keep the distance sensible.","I can smell unstable chemistry.","The cave air is changing.","A careful hunter watches every angle.","Do not stand where the lightning lands.","The venom is strictly for emergencies.","Preparation beats panic."]}
+    , "quetzin": {"personality":"bright highland flyer","lines":["The mountain wind is friendly today.","I know a clear route through the peaks.","The valley looks better from here.","Keep your eyes on the sky.","A good landing begins with a good approach.","The clouds are carrying a secret.","Altitude improves the scenery.","I can spot trouble from very far away.","The highlands welcome careful travelers."]}
+    , "nid": {"personality":"quiet ancient woodland guardian","lines":["The forest is older than your map.","I heard roots shifting underground.","A gentle step is a wise step.","The trees remember who passes through.","There is shelter beyond that ridge.","The moss has marked a safe path.","The woods do not need to shout.","I know which shadows are alive.","Respect the quiet places."]}
+    , "smol heredit": {"personality":"tiny stubborn desert sentinel","lines":["The sand has not defeated me yet.","I have a very important patrol.","The heat is merely persuasive.","Keep the water close and the plans closer.","The ruins hide useful stories.","I can guard a much larger treasure.","The desert rewards persistence.","That footprint is suspicious.","Small sentinel, serious duties."]}
+    , "soup": {"personality":"cheerful culinary companion","lines":["The recipe needs one more adventure.","I smell something delicious nearby.","Every journey improves with seasoning.","The bowl is half full.","That ingredient looks promising.","I prefer a warm route.","A good chef observes everything.","The kitchen has taught me patience.","Please do not confuse me with lunch."]}
+    , "gull": {"personality":"loud coastal opportunist","lines":["I saw that item first.","The coast has excellent snacks.","Do not leave food unattended.","The wind is carrying something shiny.","I have important beach business.","That hat would look better on me.","The harbour knows my reputation.","I am keeping watch for crumbs.","A coastal adventure needs good shouting."]}
+    , "dom": {"personality":"friendly determined cave companion","lines":["The tunnel is not as scary as it looks.","I know a sturdy route through here.","Courage grows one step at a time.","The next chamber will be interesting.","Keep your lantern ready.","I am brave enough for both of us.","The walls are telling us where to go.","A careful explorer finds the good path.","We can handle the dark together."]}
+    , "aggy": {"personality":"compact arcane scholar","lines":["The spellwork is almost elegant.","I have catalogued that rune.","Magic rewards attention.","The air is unusually charged.","Do not interrupt a useful experiment.","A small spell can solve a large problem.","I know a safer incantation.","The arcane current is flowing well.","Research is better with company."]}
+    , "beef": {"personality":"gentle but enormous bruiser","lines":["I am watching the road carefully.","That obstacle looks manageable.","A calm pace is a strong pace.","I can carry the heavy morale.","The herd would approve of this route.","Do not worry; I am paying attention.","A sturdy companion is useful anywhere.","I prefer peaceful solutions.","The grass here is acceptable."]}
+    , "maggot marquess": {"personality":"impossibly grand tiny noble","lines":["Make way for the marquess.","The court has standards for this path.","A noble journey requires ceremony.","I have inspected the ground personally.","The royal escort is currently one maggot.","Do not mistake smallness for insignificance.","The title is longer than I am.","A proper feast is being arranged.","Your service is noted."]}
+    , "mr mcgroot": {"personality":"patient root-bound elder","lines":["The soil remembers every season.","A good root takes time.","I have advice about that garden.","The old paths are still useful.","Water carefully and wait.","The forest speaks in slow sentences.","A little shade improves everything.","I have seen many harvests.","Grow steadily, adventurer."]}
+    , "kitten": {"personality":"curious tiny monarch","lines":["Everything is worth investigating.","I found a very important string.","Carry me for a little while.","The world is enormous from down here.","I approve of that bowl.","That shadow moved first.","I am learning the route.","A nap would improve this expedition.","Do not underestimate the whiskers."]}
+    , "hellcat": {"personality":"infernal feline troublemaker","lines":["I am not a normal cat.","The scratching post fears me.","Infernal service, coming right up.","I have opinions about your route.","The flames are warm enough today.","Do not touch my tail.","I can hear trouble approaching.","A proper cat chooses its own adventure.","The underworld has excellent cushions."]}
+    , "arctic bear": {"personality":"calm northern guardian","lines":["The cold keeps the mind clear.","I know a safe path through the snow.","That wind is carrying a warning.","Stay close; the ice is thin.","The mountain respects patience.","I prefer quiet hunting grounds.","The blizzard is not yet serious.","A warm camp would be sensible.","The north remembers every footprint."]}
+    , "snakeling": {"personality":"young swamp serpent","lines":["Sssomething is nearby.","I shed my old opinions.","Do not make me hiss.","The reeds are listening.","Venom is a family tradition.","The water hides useful secrets.","I prefer the quiet approach.","That puddle is not harmless.","My coils are ready."]}
+    , "dark acorn": {"personality":"ominous enchanted squirrel token","lines":["The shadows are listening.","An acorn touched by darkness.","Do not trust the trees.","Something small and sinister is following us.","I keep my snacks where the light cannot find them.","The forest knows my name.","Do you hear that? No? Excellent.","I have seen the shape of tomorrow.","The acorns whisper of danger."]}
+    , "vet'ion jr.": {"personality":"skeletal desert apprentice","lines":["The bones know the way.","The desert has no patience for hesitation.","I am learning the old routes.","The graveyard is oddly peaceful.","Dust makes a fine disguise.","My mentor had strong opinions.","Do not disturb the ancient stones.","The dead travel quietly.","I am practising my ominous posture."]}
+    , "puppadile": {"personality":"cheerful crystal raider","lines":["The raid has acquired more teeth.","I can smell a hidden room.","The crystals are not snacks, probably.","A proper expedition needs a map.","I know where the danger is hiding.","The chambers are full of echoes.","Keep the supplies organised.","I am small enough for the shortcuts.","The next puzzle looks suspicious."]}
+    , "tektiny": {"personality":"tiny ancient raid guardian","lines":["The crystal remembers every visitor.","I have a very compact strategy.","The chambers are listening.","Do not underestimate the small guardian.","A raid is mostly preparation.","The maze has a preferred route.","I am watching the exits.","The old magic is awake.","Proceed with suitable caution."]}
+    , "enraged tektiny": {"personality":"furious crystal raid guardian","lines":["The crystal has lost patience.","I am small and extremely determined.","The chamber will remember this mistake.","Do not touch the glowing parts.","The raid requires stronger preparation.","I have selected the aggressive route.","The old magic is very awake.","Run first, explain later.","My temper is larger than my model."]}
+    , "vespina": {"personality":"precise crystalline wasp","lines":["The hive has excellent acoustics.","I have marked the safest route.","Every movement has a consequence.","The chamber is under observation.","Do not disturb the crystal nest.","A coordinated attack is beautiful.","I can hear the raid planning.","The wings are ready.","The hive remembers your mistakes."]}
+    , "flying vespina": {"personality":"swift airborne crystal hunter","lines":["The ceiling is part of the battlefield.","I can see the whole chamber from here.","The air current is favourable.","Stay below the dangerous angles.","The hive has chosen a target.","Aerial scouting saves supplies.","I know where the next attack lands.","The wings prefer open space.","The raid looks smaller from above."]}
+    , "mini vanguard": {"personality":"disciplined tiny crystal warrior","lines":["The formation is ready.","A vanguard moves before the danger.","The chamber will be secured.","Keep your shield close.","I have inspected the approach.","The raid needs a proper front line.","Advance on my signal.","Small armour, serious duty.","The crystal ranks are steady."]}
+    , "vasa minirio": {"personality":"smoldering crystal mystic","lines":["The stone is warm with old power.","I hear the mountain thinking.","The crystals are not merely decoration.","A patient route avoids unnecessary fire.","The chamber has remembered me.","I prefer dramatic but controlled eruptions.","The ancient magic is stable enough.","Do not stand beneath the falling rocks.","The raid has entered a deeper mood."]}
+    , "greatish guardian": {"personality":"proud elemental portal sentinel","lines":["The rift has granted me a larger silhouette.","The portal remains secure.","I can see across more dimensions now.","The elements are cooperating.","Do not touch the unstable edge.","A greater guardian requires greater snacks.","The passage is under my protection.","I know a shortcut between worlds.","The rift is pleased with my presentation."]}
+    , "elidinis' guardian": {"personality":"radiant desert guardian","lines":["The dawn has entrusted me with this path.","The desert light is generous today.","I guard the memory of a mighty power.","The horizon is clear.","Walk with purpose beneath the sun.","The sands reward the prepared.","A radiant route is still a dangerous route.","The ancient guardian watches with me.","The light has excellent timing."]}
+    , "akkhito": {"personality":"small relentless tomb guardian","lines":["The path of Akkha is not forgiving.","I have measured your movement.","The light and shadow must be balanced.","A tomb rewards careful timing.","Keep your eyes on the attack.","The guardian remembers every failed dodge.","A small sentinel can still be precise.","The chamber is waiting for your mistake.","Proceed when the pattern is clear."]}
+    , "babi": {"personality":"playful desert baboon guardian","lines":["The tomb has excellent climbing walls.","I have found a high place to watch from.","The path is loud today.","Do not lose the supplies.","A clever guardian uses the terrain.","The desert makes everyone thirsty.","I can hear the next room.","Keep your footing near the edge.","The tomb is more fun with company."]}
+    , "kephriti": {"personality":"watchful scarab guardian","lines":["The chamber is properly sealed.","I can hear every footstep.","The sands conceal useful routes.","A guardian must inspect everything.","Do not disturb the sacred floor.","The tomb is calm for now.","I know which passage is trapped.","Patience is the strongest armour.","The ancient halls remain under watch."]}
+    , "fox": {"personality":"clever woodland scout","lines":["The forest has several useful shortcuts.","I heard that before you did.","A quiet pawstep is a useful skill.","The undergrowth is full of secrets.","I know a good place to watch from.","That trail is fresh.","The woods reward curiosity.","Keep your supplies away from clever noses.","I prefer the route with the most cover."]}
+    , "pet penance queen": {"personality":"strict team captain","lines":["The team is assembled.","Call the role before the wave.","A queen expects coordination.","The formation needs tightening.","Do not abandon the objective.","Good effort is not the same as success.","I have reviewed your equipment.","The next wave will test everything.","Together, we hold the line."]}
+    , "overgrown cat": {"personality":"comfortable veteran monarch","lines":["I have seen enough adventures for one lifetime.","The best route includes a nap.","My whiskers remember this place.","You may continue, quietly.","A mature cat plans around meal times.","The scenery is acceptable from here.","I prefer experienced adventurers.","That noise was beneath my dignity.","The expedition needs a proper rest stop."]}
+    , "wily cat": {"personality":"clever streetwise scout","lines":["I noticed the guard before you did.","A quiet paw is a useful tool.","The alley has three exits.","Keep your valuables close.","I know which shadows are friendly.","The route looks suspiciously profitable.","Nobody expects the clever cat.","I prefer plans with an escape.","The city has excellent secrets."]}
+    , "lazy cat": {"personality":"sleepy unimpressed companion","lines":["Wake me when the destination matters.","This adventure could use fewer steps.","I am supervising from a comfortable position.","The sun is doing excellent work.","You may carry the supplies.","I have no strong feelings about that.","A quiet corner would improve the journey.","I am awake enough to object.","Please schedule the next crisis later."]}
+    , "broav": {"personality":"secretive woodland tracker","lines":["The forest keeps useful secrets.","I know a trail the hunters missed.","Stay low and listen.","The undergrowth is safer than the road.","A careful scout leaves no sign.","That bird call was not natural.","We have company in the trees.","The quiet route is usually the right one.","I can find the way home."]}
+    , "pheasant": {"personality":"proud colourful woodland bird","lines":["The feathers are looking excellent today.","A proper strut improves morale.","The hedgerow is under my inspection.","I prefer routes with an audience.","That clearing deserves a grand entrance.","The forest appreciates good presentation.","Do not mistake style for distraction.","I heard something interesting in the brush.","A memorable journey needs colour."]}
+    , "callisto cub (retro)": {"personality":"old-school forest bruiser","lines":["The old forest still remembers me.","This shape has seen many battles.","The wilderness has not changed its mind.","I prefer the classic paws.","The trees recognise an experienced cub.","A retro roar is still a roar.","The old route remains reliable.","Do not mistake age for weakness.","The forest keeps its history."]}
+    , "zebo": {"personality":"playful desert crocodile guardian","lines":["The river is never far away.","The tomb has excellent waterways.","I know a shortcut through the flood.","Keep your sandals dry.","The desert hides more than sand.","A good guardian watches the current.","The ancient halls are surprisingly damp.","I am small but very capable of a dramatic splash.","The river remembers every traveler."]}
+    , "tumeken's damaged guardian": {"personality":"weathered ancient sentinel","lines":["The light has endured worse damage.","A guardian can stand while cracked.","The relic still remembers its purpose.","The desert wind has found every fracture.","Do not mistake wear for surrender.","Ancient power does not need perfect polish.","The tomb remains under watch.","I carry the scars of the journey.","Repair is another form of patience."]}
+    , "elidinis' damaged guardian": {"personality":"weathered radiant sentinel","lines":["The dawn still reaches the damaged stone.","A crack is not the end of a guardian.","The light survives the ruin.","The desert has taught me endurance.","I protect what remains.","The horizon is still worth watching.","Ancient strength is rarely spotless.","The sands will remember this repair.","Stand close; the guardian still shines."]}
+    , "vanguard": {"personality":"disciplined crystal warrior","lines":["The formation is ready.","A vanguard moves before the danger.","The chamber will be secured.","Keep your shield close.","I have inspected the approach.","The raid needs a proper front line.","Advance on my signal.","Crystal armour, serious duty.","The crystal ranks are steady."]}
+    , "chaos elemental jr": {"personality":"unstable wilderness anomaly","lines":["The wilderness has become pleasantly unpredictable.","I have several colours and no clear plan.","Chaos is a perfectly reasonable travel strategy.","The air is making strange suggestions.","Keep your supplies close to your reality.","I heard a noise from three directions at once.","The wilds appreciate improvisation.","Do not ask which element I am today.","A little disorder keeps the journey interesting."]}
+    , "fish": {"personality":"quiet aquatic observer","lines":["Blub.","The water is better than the road.","I am out of my depth, pleasantly.","Please find me some water.","The current has a useful opinion.","I prefer adventures with a bowl nearby.","The bubbles are saying something important.","A calm surface hides a busy world.","I am keeping an eye on the shoreline."]}
+    , "pet zilyana": {"personality":"devoted holy attendant","lines":["The commander expects discipline.","I carry the banner proudly.","The light has not abandoned us.","Stay close to the formation.","A faithful journey is a worthwhile journey.","The next trial will be met together.","I am watching for danger.","The cause remains strong.","You have my service."]}
+  }
+}

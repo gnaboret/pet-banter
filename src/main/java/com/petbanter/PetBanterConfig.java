@@ -18,17 +18,6 @@ public interface PetBanterConfig extends Config
         return true;
     }
 
-    @Range(min = 5, max = 120)
-    @ConfigItem(
-        keyName = "reactionCooldown",
-        name = "Reaction Cooldown",
-        description = "Minimum seconds between pet reactions"
-    )
-    default int reactionCooldown()
-    {
-        return 30;
-    }
-
     @ConfigItem(
         keyName = "showThoughts",
         name = "Show Thought Bubbles",
@@ -38,4 +27,36 @@ public interface PetBanterConfig extends Config
     {
         return true;
     }
+
+    @ConfigItem(
+        keyName = "showChatReactions",
+        name = "Show Chat Reactions",
+        description = "Show pet reactions in the local chat box"
+    )
+    default boolean showChatReactions()
+    {
+        return true;
+    }
+
+    @ConfigItem(
+        keyName = "showPetInteractions",
+        name = "Show Pet Interactions",
+        description = "Allow nearby recognized pets to exchange dialogue"
+    )
+    default boolean showPetInteractions()
+    {
+        return true;
+    }
+
+    @Range(min = 1, max = 15)
+    @ConfigItem(
+        keyName = "interactionRange",
+        name = "Nearby Pet Range",
+        description = "Maximum same-plane distance for pet-to-pet interactions"
+    )
+    default int interactionRange()
+    {
+        return 5;
+    }
+
 }
