@@ -23,6 +23,7 @@ import java.util.concurrent.ThreadLocalRandom;
 )
 public class PetBanterPlugin extends Plugin
 {
+    private static final int OVERHEAD_SPEECH_CYCLES = 150;
     private static final long MIN_REACTION_DELAY_MILLIS = 28_000L;
     private static final long MAX_REACTION_DELAY_MILLIS = 148_000L;
     @Inject
@@ -124,10 +125,10 @@ public class PetBanterPlugin extends Plugin
                 return;
             }
             activeFollower.setOverheadText(reaction);
-            activeFollower.setOverheadCycle(client.getGameCycle() + 100);
+            activeFollower.setOverheadCycle(client.getGameCycle() + OVERHEAD_SPEECH_CYCLES);
             if (config.showChatReactions())
             {
-                client.addChatMessage(ChatMessageType.NPC_SAY, petTracker.getFollowerName(), reaction, null);
+                addPetChatMessage(followerName, reaction);
             }
             java.util.List<NPC> nearbyPets = config.showPetInteractions()
                 ? petTracker.getNearbyKnownPets(config.interactionRange()) : java.util.Collections.emptyList();
@@ -140,8 +141,8 @@ public class PetBanterPlugin extends Plugin
                         nearbyPet.getName(), reactionIndex);
                     String reply = reactionEngine.nearbyInteraction(nearbyPet.getName(),
                         followerName, reactionIndex + 1);
-                    client.addChatMessage(ChatMessageType.NPC_SAY, followerName, opening, null);
-                    client.addChatMessage(ChatMessageType.NPC_SAY, nearbyPet.getName(), reply, null);
+                    addPetChatMessage(followerName, opening);
+                    addPetChatMessage(nearbyPet.getName(), reply);
                 }
                 interactionsShown++;
                 if (interactionsShown >= 3)
@@ -154,6 +155,15 @@ public class PetBanterPlugin extends Plugin
             pendingContext = ReactionContext.IDLE;
             pendingContextUntilMillis = 0;
         }
+    }
+
+    private void addPetChatMessage(String petName, String message)
+    {
+        if (petName == null || petName.trim().isEmpty() || message == null || message.trim().isEmpty())
+        {
+            return;
+        }
+        client.addChatMessage(ChatMessageType.PUBLICCHAT, petName, message, null);
     }
 
     @Subscribe

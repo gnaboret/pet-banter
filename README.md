@@ -8,7 +8,7 @@ The catalog contains dedicated personalities and lines for the recognized OSRS f
 
 ## Settings
 
-The plugin can be enabled or disabled, thought bubbles/chat reactions can be hidden, and nearby-pet interactions can be disabled independently. Follow-up reactions use a random 28-second to 2-minute-28-second delay. Reactions are local overlay text and do not send game input or network requests.
+The plugin can be enabled or disabled, overhead thoughts/chat reactions can be hidden, and nearby-pet interactions can be disabled independently. Follower speech uses RuneLite's normal public-chat formatting under the pet's name and a short native overhead lifetime. Follow-up reactions use a random 28-second to 2-minute-28-second delay. Reactions are local client messages and do not send game input or network requests.
 
 ## Dialogue catalog
 
